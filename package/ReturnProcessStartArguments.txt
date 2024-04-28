@@ -1,0 +1,6 @@
+function ReturnProcessStartArguments { 
+param( [PSObject] $TargetProcess )
+ 
+return $TargetProcess.Arguments 
+
+}
